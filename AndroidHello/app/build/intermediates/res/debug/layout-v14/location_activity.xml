@@ -1,0 +1,92 @@
+<!--  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelloActivity" > -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background2"
+            android:orientation="vertical"
+            tools:context=".LocationActivity"
+            android:weightSum="1"
+            android:id="@+id/main_layout">
+
+            <EditText android:id="@+id/land_mark"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:hint="@string/land_mark"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_switch"
+                android:background="@drawable/switch_selector"
+                android:textOff=""
+                android:textOn=""
+                android:layout_below="@+id/land_mark"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:checked="false"
+                android:clickable="true" />
+
+            <RelativeLayout
+                android:id="@+id/contact_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/select_switch">
+
+               <EditText android:id="@+id/phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:hint="@string/phone_number"
+                   android:layout_toLeftOf="@+id/contact_search"
+                   android:textSize="15dp"
+                   android:textStyle="normal"
+                   android:textIsSelectable="false" />
+
+                <ImageView
+                android:id="@+id/contact_search"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:paddingRight="22dp"
+                android:paddingTop="6dp"
+                android:src="@drawable/search" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_layout"
+                android:id="@+id/bottom_layout">
+
+                <Button android:id="@+id/button_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable = "false"
+                    android:text="@string/button_send"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                        android:id="@+id/error_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:editable="false"
+                        android:elegantTextHeight="false"
+                        android:layout_alignParentBottom="false"
+                        android:layout_alignParentRight="false"
+                        android:layout_below="@+id/button_send" />
+            </RelativeLayout>
+
+        </RelativeLayout><!-- From: file:/C:/Users/manohar/AndroidStudioProjects/AndroidHello/app/src/main/res/layout-v14/location_activity.xml -->

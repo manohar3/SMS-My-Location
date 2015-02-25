@@ -1,0 +1,83 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\gen\
+* .idea\gen\com\
+* .idea\gen\com\sharelocation\
+* .idea\gen\com\sharelocation\android\
+* .idea\gen\com\sharelocation\android\BuildConfig.java
+* .idea\gen\com\sharelocation\android\Manifest.java
+* .idea\gen\com\sharelocation\android\R.java
+* .idea\misc.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\workspace.xml
+* 1024-.png
+* 512-512.png
+* ic_launcher-web.png
+* my_location.png
+* my_location1024x500.png
+* output\
+* output\production\
+* output\production\SMS_My_Location\
+* output\production\SMS_My_Location\SMS_My_Location.apk
+* output\production\SMS_My_Location\com\
+* output\production\SMS_My_Location\com\sharelocation\
+* output\production\SMS_My_Location\com\sharelocation\android\
+* output\production\SMS_My_Location\com\sharelocation\android\BuildConfig.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$attr.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$drawable.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$id.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$layout.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$menu.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$mipmap.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$string.class
+* output\production\SMS_My_Location\com\sharelocation\android\R$style.class
+* output\production\SMS_My_Location\com\sharelocation\android\R.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

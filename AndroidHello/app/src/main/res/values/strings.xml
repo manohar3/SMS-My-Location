@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS My Location</string>
+    <string name="menu_settings">Settings</string>
+    <string name="phone_number">Enter recipients phone number</string>
+    <string name="land_mark">Enter your land mark</string>
+    <string name="button_send">Send it now</string>
+
+</resources>

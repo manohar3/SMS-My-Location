@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\manohar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-be04d2baca8027dcb41da966dbbe8485660cc23f.jar" />
+    </item>
+    <item
+        jar="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2e9b6e59d7df9f32ecef5c149315435665e52e6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\classes-092b733eed7355fe07a1f3015784d99e55c83379.jar" />
+    </item>
+    <item
+        jar="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\classes-2509f080717545a6b88bd0325b6e344ac8a73831.jar" />
+    </item>
+
+</items>

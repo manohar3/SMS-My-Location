@@ -1,0 +1,8 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/locating1" android:duration="500" />
+    <item android:drawable="@drawable/locating2" android:duration="500" />
+    <item android:drawable="@drawable/locating3" android:duration="500" />
+    <item android:drawable="@drawable/locating4" android:duration="500" />
+</animation-list>
+<!-- From: file:/C:/Users/manohar/AndroidStudioProjects/AndroidHello/app/src/main/res/drawable/animate.xml -->

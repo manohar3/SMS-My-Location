@@ -1,0 +1,5 @@
+C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\classes\debug
+C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-be04d2baca8027dcb41da966dbbe8485660cc23f.jar
+C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-2e9b6e59d7df9f32ecef5c149315435665e52e6f.jar
+C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\classes-2509f080717545a6b88bd0325b6e344ac8a73831.jar
+C:\Users\manohar\AndroidStudioProjects\AndroidHello\app\build\intermediates\pre-dexed\debug\classes-092b733eed7355fe07a1f3015784d99e55c83379.jar
